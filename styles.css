@@ -70,7 +70,7 @@ button {
 }
 
 #num-box {
-    visibility: hidden;
+    /* visibility: hidden; */
 }
 
 #random-num {

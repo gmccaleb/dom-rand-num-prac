@@ -16,12 +16,34 @@ window.addEventListener("load", () => {
     // Run any code needed to display things on page when it first loads
   
     // TODO #1 - Add to existing text "Today's date is" using a new Date object and the .toLocaleDateString() method
-  
+    const date = document.getElementById('date');
+    const today = new Date()
+    date.innerHTML += ' ' + today.toLocaleDateString('en-US', {
+        weekday: 'long',
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+    });
   
   
     /* EVENT LISTENERS */
   
     // TODO #2 - Add a click event listener for the button 
+       const randomNumButton = document.getElementById('num-button');
+    function getRandomNum() {
+        return Math.floor(Math.random() * 100) + 1;
+    }
+    const randomNumDisplay = document.getElementById('num-box');
+    randomNumButton.addEventListener('click', () => {
+        console.log("Button clicked");
+        randomNumDisplay.innerHTML = getRandomNum();
+    });
+
+
+
+
+
+
 
     // First test that it's working with a console.log (check browser DevTools Console) 
     // Set it to generate a random number (use Math object)

@@ -1,0 +1,20 @@
+{
+  "name": "dom-rand-num-prac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmccaleb/dom-rand-num-prac.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gmccaleb/dom-rand-num-prac/issues"
+  },
+  "homepage": "https://github.com/gmccaleb/dom-rand-num-prac#readme"
+}
